@@ -1,10 +1,6 @@
 <template>
 <div class="crasouel" >
     <swiper-page></swiper-page>
-    <!-- <div class="miaoshu">
-
-    </div> -->
-
 </div>
      
 

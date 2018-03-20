@@ -65,8 +65,6 @@
     <div>
       <Foot></Foot>
     </div>
-
-
   </div>
 </template>
 
@@ -112,7 +110,6 @@
 
 <style scoped>
   .li {
-    /* margin-top: 50px; */
   }
 
   .clearfix ::before::after {
