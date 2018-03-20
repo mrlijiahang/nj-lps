@@ -6,6 +6,7 @@
           <div  class ='peopletop'></div>
           <div>{{msg}}</div>
           <div>{{msg1}}</div>
+          <div>{{msg2}}</div>
       </div>
       </div>
   </div>
@@ -26,8 +27,9 @@ export default {
           {}
 
       ],
-      msg:'李佳航',
-      msg1:'天极F46666天极F46666天极F46666'
+      msg:'王大锤',
+      msg1:'联想集团',
+      msg2:'华北大区总经理',
   })
 }
 </script>
@@ -45,7 +47,11 @@ export default {
 .peopletop{
     width:150px;height:150px;border-radius:50%;
     border:1px solid white;
-    margin:auto
+    margin:auto;
+    background-image: url('../img/YH.jpg');
+    background-repeat: no-repeat;
+    background-origin: center center;
+    background-size: cover;
 }
 .bord{
     border: 1px solid white;
@@ -58,6 +64,9 @@ export default {
     height: 100px;
     border-radius: 50%;
      border: 1px solid white;
+}
+.people{
+    height: 210px;
 }
 
 }

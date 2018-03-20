@@ -43,8 +43,9 @@ ul,li{
     padding-top: 20px;
     padding-left: 40px;
     width: 43%;
-    height: 407px;
+    /* height: 407px; */
     background: #fff;
+    padding-bottom: 50px;
 }
 .listtit{
   color: #48ae1f;
@@ -66,6 +67,9 @@ ul,li{
     }
     .ml15{
         margin-left: 0px;
+    }
+    ul{
+      padding-right: 40px;
     }
 }
 
